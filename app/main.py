@@ -7,7 +7,7 @@ from .data import data_generate
 from .header import header_generate
 
 proxies = {"http": None, "https": None}  # 代理
-debug = 1  # 调试模式
+debug = 0  # 调试模式
 '''
 this module is the main module. it will get cookies and post your report data
 if you are not developer,you must NOT write anything in this file
